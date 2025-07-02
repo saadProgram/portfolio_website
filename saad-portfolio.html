@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Saad Ullah Hussaini - AI Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #e2e8f0;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .tag {
+            background-color: #1e293b;
+            color: #94a3b8;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-xl font-bold text-white">Syed Saad Ullah Hussaini</a>
+                </div>
+                <nav class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#about" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                        <a href="#experience" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Experience</a>
+                        <a href="#contact" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-16">
+        <!-- Hero Section -->
+        <section id="hero" class="py-24 md:py-32 lg:py-40 text-center">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
+                    Syed Saad Ullah Hussaini
+                </h1>
+                <p class="mt-4 text-xl md:text-2xl text-cyan-400 font-semibold">
+                    AI Engineer
+                </p>
+                <p class="mt-6 max-w-2xl mx-auto text-lg text-slate-400">
+                    Specializing in vector embeddings, LLM agents, and computer vision. Delivering end-to-end intelligent solutions from research to deployment on AWS.
+                </p>
+                <div class="mt-8 flex justify-center items-center space-x-6">
+                    <a href="https://github.com/saadProgram" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                        <span class="sr-only">GitHub</span>
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.492.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saad-data/" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-16 sm:py-20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl font-bold tracking-tight text-white text-center">About Me</h2>
+                    <div class="mt-8 text-lg text-slate-300 leading-relaxed space-y-4 text-center">
+                        <p>
+                            I am an AI Engineer with a passion for building intelligent systems that solve real-world problems. My expertise lies in the full project lifecycle, from initial research and model development to deploying robust, scalable production systems on cloud platforms like AWS.
+                        </p>
+                        <p>
+                            With a strong academic foundation in Artificial Intelligence from FAST-NUCES and hands-on experience with deep learning frameworks, cloud-native applications, and MLOps, I am adept at transforming complex challenges into efficient, end-to-end solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-16 sm:py-20 bg-black/20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold tracking-tight text-white text-center">Technical Skills</h2>
+                <div class="mt-10 max-w-4xl mx-auto">
+                    <div class="flex flex-wrap justify-center gap-3 md:gap-4">
+                        <span class="tag">RAG</span>
+                        <span class="tag">Agentic AI</span>
+                        <span class="tag">Tensorflow</span>
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">Scikit-Learn</span>
+                        <span class="tag">Hugging Face</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Kubernetes</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16 sm:py-20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold tracking-tight text-white text-center">Projects</h2>
+                <div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                    
+                    <!-- Project Card 1 -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-cyan-400 transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white">MeatInspect.Ai</h3>
+                        <p class="mt-1 text-sm text-cyan-400 font-medium">Final Year Project</p>
+                        <p class="mt-3 text-slate-300 flex-grow">Deployed a 99.99% accurate meat spoilage image classifier on AWS SageMaker, with report automation via AWS Bedrock, on a Flask app deployed to AWS AppRunner.</p>
+                        <div class="mt-4">
+                            <span class="text-xs font-bold text-slate-400">Code Confidential</span>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-cyan-400 transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white">LexAI - Legal Contract Analysis</h3>
+                        <p class="mt-1 text-sm text-cyan-400 font-medium">Agentic AI</p>
+                        <p class="mt-3 text-slate-300 flex-grow">Developed a RAG-based assistant using Gemini Flash and LangGraph to automate clause extraction, risk scoring, and compliance evaluation with ChromaDB.</p>
+                        <div class="mt-4">
+                            <a href="https://github.com/saadProgram/LexAl" target="_blank" class="text-sm font-medium text-cyan-400 hover:text-cyan-300">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-cyan-400 transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white">Radiology Report Generation</h3>
+                        <p class="mt-1 text-sm text-cyan-400 font-medium">Multi-Modal AI</p>
+                        <p class="mt-3 text-slate-300 flex-grow">Improved Cross-Modal Memory Network architecture using contrastive loss and attention, achieving a 0.4788 BLEU-1 score for report generation.</p>
+                        <div class="mt-4">
+                            <a href="https://github.com/saadProgram/CMN-Radiology" target="_blank" class="text-sm font-medium text-cyan-400 hover:text-cyan-300">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 4 -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-cyan-400 transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white">Automated Fall Detection</h3>
+                        <p class="mt-1 text-sm text-cyan-400 font-medium">Machine Learning</p>
+                        <p class="mt-3 text-slate-300 flex-grow">Engineered a fall detection system using smartphone sensors with 99.98% accuracy via an optimized Random Forest model.</p>
+                        <div class="mt-4">
+                            <a href="https://github.com/saadProgram/Fall-Detection" target="_blank" class="text-sm font-medium text-cyan-400 hover:text-cyan-300">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 5 -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-cyan-400 transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white">Medical Text Similarity Analysis</h3>
+                        <p class="mt-1 text-sm text-cyan-400 font-medium">Natural Language Processing</p>
+                        <p class="mt-3 text-slate-300 flex-grow">Improved medical text similarity using `all-distilroberta-v1` from Hugging Face and cosine similarity for enhanced semantic analysis.</p>
+                        <div class="mt-4">
+                            <a href="https://github.com/saadProgram/Medical-Text-Similarity" target="_blank" class="text-sm font-medium text-cyan-400 hover:text-cyan-300">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 6 -->
+                    <div class="glass-card rounded-xl p-6 flex flex-col hover:border-cyan-400 transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white">Flask App on AWS EKS</h3>
+                        <p class="mt-1 text-sm text-cyan-400 font-medium">AWS Cloud</p>
+                        <p class="mt-3 text-slate-300 flex-grow">Designed and deployed a containerized Python application on AWS EKS using Docker & Kubernetes, with automated load balancing and ECR.</p>
+                        <div class="mt-4">
+                            <a href="https://github.com/saadProgram/Flask-AWS-EKS" target="_blank" class="text-sm font-medium text-cyan-400 hover:text-cyan-300">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- Experience & Education Section -->
+        <section id="experience" class="py-16 sm:py-20 bg-black/20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <!-- Experience Column -->
+                        <div>
+                            <h2 class="text-3xl font-bold tracking-tight text-white mb-8 text-center md:text-left">Experience</h2>
+                            <div class="relative pl-8 border-l-2 border-slate-700">
+                                <div class="absolute w-4 h-4 bg-cyan-400 rounded-full -left-2 top-1"></div>
+                                <p class="text-sm font-medium text-slate-400">Oct 2024 - May 2025</p>
+                                <h3 class="text-lg font-semibold text-white mt-1">Co-Head of Tech Team</h3>
+                                <p class="text-md text-slate-300">FAST Data Science Society</p>
+                                <ul class="mt-2 list-disc list-inside text-slate-400 space-y-1">
+                                    <li>Organized 3+ technical speaker events.</li>
+                                    <li>Executed a hackathon and data analytics course.</li>
+                                    <li>Managed technical infrastructure.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Education Column -->
+                        <div>
+                            <h2 class="text-3xl font-bold tracking-tight text-white mb-8 text-center md:text-left">Education</h2>
+                            <div class="relative pl-8 border-l-2 border-slate-700">
+                                <div class="absolute w-4 h-4 bg-cyan-400 rounded-full -left-2 top-1"></div>
+                                <p class="text-sm font-medium text-slate-400">Sep 2021 - Jun 2025</p>
+                                <h3 class="text-lg font-semibold text-white mt-1">Bachelor of Science - Artificial Intelligence</h3>
+                                <p class="text-md text-slate-300">FAST-NUCES Karachi Campus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards & Certifications Section -->
+        <section id="awards-certs" class="py-16 sm:py-20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold tracking-tight text-white text-center">Awards & Certifications</h2>
+                <div class="mt-12 max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                    <!-- Award Card 1 -->
+                    <div class="glass-card rounded-xl p-6">
+                        <p class="text-sm text-cyan-400 font-medium">PROCOM'25</p>
+                        <h3 class="text-lg font-semibold text-white mt-1">Deep Vision Showdown Winner</h3>
+                        <p class="mt-2 text-slate-400">Achieved a 0.94 dice score in segmenting anatomical structures in sonography images.</p>
+                    </div>
+                    <!-- Award Card 2 -->
+                    <div class="glass-card rounded-xl p-6">
+                        <p class="text-sm text-cyan-400 font-medium">ACM-AI, FAST-NUCES</p>
+                        <h3 class="text-lg font-semibold text-white mt-1">AI Vanguard Rumble Runner-up</h3>
+                        <p class="mt-2 text-slate-400">Secured runner-up in the 'AI Nexus' competition.</p>
+                    </div>
+                    <!-- Certification Cards -->
+                    <div class="glass-card rounded-xl p-6">
+                        <p class="text-sm text-cyan-400 font-medium">Google</p>
+                        <h3 class="text-lg font-semibold text-white mt-1">Google 5-Day Gen AI Intensive</h3>
+                    </div>
+                    <div class="glass-card rounded-xl p-6">
+                        <p class="text-sm text-cyan-400 font-medium">Datacamp</p>
+                        <h3 class="text-lg font-semibold text-white mt-1">Developing LLM Applications with LangChain</h3>
+                    </div>
+                    <div class="glass-card rounded-xl p-6">
+                        <p class="text-sm text-cyan-400 font-medium">Coursera</p>
+                        <h3 class="text-lg font-semibold text-white mt-1">Containerized Applications on AWS</h3>
+                    </div>
+                     <div class="glass-card rounded-xl p-6">
+                        <p class="text-sm text-cyan-400 font-medium">Coursera</p>
+                        <h3 class="text-lg font-semibold text-white mt-1">Intro to Neural Networks and PyTorch</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-black">
+        <div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-white">Get In Touch</h2>
+            <p class="mt-4 text-lg text-slate-300">I'm always open to discussing new projects, creative ideas, or opportunities to be part of an ambitious vision.</p>
+            
+            <!-- Updated Contact Section -->
+            <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="mailto:saadullahhussaini10@gmail.com" class="inline-block bg-cyan-500 text-white font-bold px-6 py-3 rounded-lg hover:bg-cyan-600 transition-colors">
+                    Email Me
+                </a>
+                <div class="flex items-center gap-2 glass-card rounded-lg px-4 py-3">
+                    <span id="email-text" class="text-slate-300">saadullahhussaini10@gmail.com</span>
+                    <button id="copy-btn" class="text-cyan-400 hover:text-cyan-300 font-semibold" title="Copy to clipboard">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="copy-success" class="mt-4 text-green-400 opacity-0 transition-opacity duration-300">Email copied to clipboard!</div>
+
+            <div class="mt-12 flex justify-center space-x-6">
+                 <a href="https://github.com/saadProgram" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                    <span class="sr-only">GitHub</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.492.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/saad-data/" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+            </div>
+            <p class="mt-8 text-sm text-slate-500">
+                &copy; 2025 Syed Saad Ullah Hussaini. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for copy to clipboard functionality
+        const copyBtn = document.getElementById('copy-btn');
+        const emailText = document.getElementById('email-text').innerText;
+        const copySuccessMsg = document.getElementById('copy-success');
+
+        copyBtn.addEventListener('click', () => {
+            // Create a temporary textarea element to hold the text
+            const textArea = document.createElement('textarea');
+            textArea.value = emailText;
+            // Make the textarea non-editable and invisible
+            textArea.style.position = 'absolute';
+            textArea.style.left = '-9999px';
+            textArea.setAttribute('readonly', '');
+            document.body.appendChild(textArea);
+            
+            // Select and copy the text
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                // Show success message
+                copySuccessMsg.style.opacity = '1';
+                setTimeout(() => {
+                    copySuccessMsg.style.opacity = '0';
+                }, 2000); // Hide after 2 seconds
+            } catch (err) {
+                console.error('Failed to copy text: ', err);
+                // Fallback message
+                copySuccessMsg.innerText = 'Failed to copy!';
+                copySuccessMsg.style.color = '#f87171'; // Tailwind's red-400
+                copySuccessMsg.style.opacity = '1';
+                 setTimeout(() => {
+                    copySuccessMsg.style.opacity = '0';
+                }, 2000);
+            }
+
+            // Remove the temporary element
+            document.body.removeChild(textArea);
+        });
+    </script>
+
+</body>
+</html>
